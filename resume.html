@@ -1,48 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="cv.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="css/resume.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
 </head>
 <style> 
-.d1 {background-color:black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-#git {color:darkcyan}
-.d2 {background-color:black;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-.d3 {background-color: brown;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;}
-.t1 {color:seagreen;
-    font-style: italic;
-    font-weight: bold;
-    border-collapse: collapse;}
-.t2 {color:brown;
-    border-collapse: collapse;
-    background-color: thistle;
-    font-size: 16pt;}
-body {font-style: oblique;
-    font-size: large;}
-div {font-size: 125%;}
-h3 {color: darkblue;}
 
 </style>
-<body>
-    <h3>Jack Lambert</h3>
+<body class="p-3 mb-2 bg-secondary">
+    <h3 class="fw-bold">Jack Lambert</h3>
     <div class="d1">
         <a href="index.html" target="blank">Index</a><br>
-        <span class="personal"><i>4142 Wilmington Rd</i></span><br>
-        <span class="personal"><i>South Euclid OH 44121</i></span><br>
-        <a href="https://github.com/Jlambert052" target="blank" id="git">Github</a>
-        <span class="personal">jackwlambert14@gmail.com</span>
+        <span class="fst-italic">4142 Wilmington Rd</span><br>
+        <span class="fst-italic">South Euclid OH 44121</span><br>
+        <span class="fst-italic">jackwlambert14@gmail.com</span> <br>
+        <a href="https://github.com/Jlambert052" target="blank" class="inline-block text-start">https://Github.com/Jlambert052</a><br>
+    <a href="https://www.linkedin.com/in/jackwlambert14/" target="blank" class="inline-block text-end">https://www.linkedin.com/in/jackwlambert14/</a>
     </div>
     <hr>
+    
     <div class="d2">
 
-        <h3>Technologies</h3>
-        <table border="20" class="t1">
+        <h3 class="fw-semibold text-center">Technologies</h3>
+        <table class="table table-dark table-striped">
             <tbody>
                 <tr>
                     <td style="width:125px;">Git/Github</td>
@@ -71,33 +56,33 @@ h3 {color: darkblue;}
             </tbody>
         </table>
     </div>
+    <hr>
     <div class="d3">
-        <hr>
-        <h3>Work Experience</h3>
-        <span><b>MRI SOFTWARE</b></span> |
-        <span><i> Software Support Agent </i></span> |
-        <span><i> Solon OH </i></span> |
-        <span><i> June 2021 - July 2022 </i></span><br>
+        <h3 class="fw-semibold text-center">Work Experience</h3>
+        <span class="fs-4 fst-italic"><b>MRI SOFTWARE</b></span><br>
+        <span class="fs-5 fst-italic">Software Support Agent</span> |
+        <span class="fs-5 fst-italic">Solon OH</span> |
+        <span class="fs-5 fst-italic">June 2021 - July 2022</span><br>
         <ul>
-            <li>Maintained 90%+ customer satisfaction rate</li>
-            <li>Documented and forwarded bugs and issues for resolution to development team</li>
-            <li>Assisted with training and shadowing of new employees</li>
+            <li class="fs-5 fw-semibold">Maintained 90%+ customer satisfaction rate</li>
+            <li class="fs-5 fw-semibold">Documented and forwarded bugs and issues for resolution to development team</li>
+            <li class="fs-5 fw-semibold">Assisted with training and shadowing of new employees</li>
         </ul>
     </div>
-    <div class="d4  ">
-    <span><b>DAYTON PUBLIC SCHOOLS</b></span> |
-        <span><i>High School and Middle School Band Director</i></span> |
-        <span><i> Dayton OH </i></span> |
-        <span><i> August 2018 - May 2020 </i></span><br>
+    <div class="d4">
+    <span class="fw-semibold text-center"><b>DAYTON PUBLIC SCHOOLS</b></span><br>
+        <span class="fs-4 fst-italic">High School and Middle School Band Director</span> |
+        <span class="fs-5 fst-italic">Dayton OH</span> |
+        <span class="fs-5 fst-italic">August 2018 - May 2020</span><br>
         <ul>
-            <li>Built a band program from scratch</li>
-            <li>Performed quarterly concerts and formed pep band for sports events</li>
-            <li>Constructed inventory system to track school instruments with check in/check out system</li>
+            <li class="fs-5 fw-semibold">Built a band program from scratch</li>
+            <li class="fs-5 fw-semibold">Performed quarterly concerts and formed pep band for sports events</li>
+            <li class="fs-5 fw-semibold">Constructed inventory system to track school instruments with check in/check out system</li>
         </ul>
-        <hr>
     </div>
-    <h3>Education</h3>
-    <table border="10" class="t2">
+    <hr>
+    <h3 class="fw-semibold text-center">Education</h3>
+    <table class="table table-dark table-striped">
         <thead>
             <tr>
                 <td style="width:125px;">School</td>

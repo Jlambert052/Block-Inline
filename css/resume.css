@@ -1,0 +1,39 @@
+/* most is not used due to integrating bootstrap; CSS no longer valid for most 
+
+.personal {
+    color:black
+}
+.d1 {}
+#git {color:darkcyan}
+.d2 {}
+        .d3 {}
+            .d4 {}
+.t1 {width: 60%;
+    margin-left: 20%;
+    font-weight: bold;
+    font-size: 16pt;
+    background-color: cadetblue;
+    border-collapse: collapse;}
+.t2 {width: 60%;
+    margin-left: 20%;
+    border-collapse: collapse;
+    background-color:cadetblue;
+    font-size: 16pt;}
+    body {
+        font-size: large;
+        background-color:darkgray}
+        div {font-size: 110%;}
+        h3 {color:darkred;}
+        .description {
+            font-style: italic;
+        }
+        .employer {
+            justify-content:center;
+        }
+        .title {width: 20%;
+            margin-left: 40%;
+        }
+        table, tbody, tr, td{
+            justify-content: center;
+}
+            */
