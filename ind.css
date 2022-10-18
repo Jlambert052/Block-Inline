@@ -1,0 +1,21 @@
+.link {
+    color:darkcyan;
+    background-color: black;
+    font-style: oblique;
+    font-size: 18pt;
+}
+.gw {
+    color: yellow;
+    background-color:darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.tb1 {
+    background-color: burlywood;
+    color:indigo;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+.button {
+    font-size: larger;
+}
